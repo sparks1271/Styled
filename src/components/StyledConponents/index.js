@@ -31,7 +31,7 @@ class StyledConponents extends Component {
     this.setState(prevState => ({isUnderLine: !prevState.isUnderLine}))
   }
 
-  onChangeTextarea = event => () => {
+  onChangeTextarea = event => {
     this.setState({textArea: event.target.value})
   }
 
